@@ -1,0 +1,19 @@
+{
+  "name": "project-x-doc",
+  "version": "0.0.1",
+  "description": "Technical documentation for project x",
+  "main": "index.js",
+  "authors": {
+    "name": "Natnael Tilahun",
+    "email": ""
+  },
+  "repository": "/project-x-doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
