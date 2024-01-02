@@ -48,7 +48,7 @@ cd <project-name>
 Install the dependencies:
 
 ```
-yarn install
+npm install
 ```
 
 ### Development Server

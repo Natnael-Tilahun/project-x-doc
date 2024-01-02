@@ -48,14 +48,18 @@ module.exports = {
         text: "System Doc",
         link: "/systemdoc/guide/",
       },
+      {
+        text: "Business Req",
+        link: "/businessreq/guide/",
+      },
       // {
       //   text: "Config",
       //   link: "/config/",
       // },
-      {
-        text: "Link",
-        link: "https://project-x-backend-chi.vercel.app/",
-      },
+      // {
+      //   text: "Link",
+      //   link: "https://project-x-backend-chi.vercel.app/",
+      // },
     ],
     sidebar: {
       "/frontend/guide/": [
@@ -65,7 +69,7 @@ module.exports = {
           children: [
             "",
             "installation-guide",
-            // "system-architecture",
+            "usage-and-features",
             // "configuration-guide",
             // "user-guide",
             // "troubleshooting-and-faq",
@@ -95,6 +99,24 @@ module.exports = {
             // "security-information",
             // "support-and-contact-information",
             // "glossary",
+          ],
+        },
+      ],
+      "/systemdoc/guide/": [
+        {
+          title: "Guide",
+          collapsable: false,
+          children: [
+            ""
+          ],
+        },
+      ],
+      "/businessreq/guide/": [
+        {
+          title: "Guide",
+          collapsable: false,
+          children: [
+            ""
           ],
         },
       ],
