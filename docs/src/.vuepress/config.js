@@ -70,7 +70,7 @@ module.exports = {
             "",
             "installation-guide",
             "usage-and-features",
-            // "configuration-guide",
+            "folder-structure",
             // "user-guide",
             // "troubleshooting-and-faq",
             // "code-documentation",
