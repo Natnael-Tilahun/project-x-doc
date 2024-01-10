@@ -8,6 +8,9 @@
     "email": ""
   },
   "repository": "/project-x-doc",
+  "node": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  },
   "scripts": {
     "docs:dev": "vuepress dev src",
     "docs:build": "vuepress build src"
